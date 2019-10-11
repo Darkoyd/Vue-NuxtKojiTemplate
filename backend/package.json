@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Server for Koji game development",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkoyd/Vue-NuxtKojiTemplate.git"
+  },
+  "author": "Catalina Londoño and Juan D. Villamil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darkoyd/Vue-NuxtKojiTemplate/issues"
+  },
+  "homepage": "https://github.com/Darkoyd/Vue-NuxtKojiTemplate#readme",
+  "dependencies": {
+    "@withkoji/database": "^1.0.14",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^3.3.3"
+  }
+}
